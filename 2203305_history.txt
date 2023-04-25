@@ -1,0 +1,137 @@
+    1  git config --global user.name "ashish4601"
+    2  git config --global user.email "tashish.2005@gmail.com"
+    3  ls -al
+    4  cat .gitconfig
+    5  ls -la ~/.ssh | grep 'id_rsa'
+    6  ls -al ~/.ssh | grep 'id_rsa'
+    7  ssh-keygen -t RSA
+    8  ls -al ~/.ssh | grep 'id_rsa'
+    9  cat id_rsa
+   10  ls -al
+   11  cd .ssh
+   12  ls -al
+   13  cat id_rsa.pub
+   14  git clone git@github.com:ashish4601/2203305-lab-exam.git
+   15  cat >README.md
+   16  cat README.md
+   17  git pull https://github.com/tusharlone/cs102-git-essentials.git
+   18  git clone https://github.com/tusharlone/cs102-git-essentials.git
+   19  ls 
+   20  cd 2203305-lab-exam
+   21  ls
+   22  cd ..
+   23  cd cs102-git-essentials
+   24  ls
+   25  cp *.csv ~/2203305-lab-exam
+   26  cd ..
+   27  cd 2203305-lab-exam
+   28  ls
+   29  cat -1 *.csv
+   30  cat -n *.csv
+   31  wc -l *.csv
+   32  less *.csv |head -1
+   33  less ca_500.csv |head -1
+   34  less us_500.csv |head -1
+   35  cat ca_500.csv |grep "Montreal"
+   36  cat >ca_city_Montreal.csv
+   37  cat ca_500.csv |grep "Montreal">ca_city_Montreal.csv
+   38  cat ca_city_Montreal.csv
+   39  vim 2203305_data_filter.sh
+   40  a='ashish'
+   41  echo a
+   42  echo $a
+   43  c=${a:6:3}
+   44  echo c
+   45  echo $c
+   46  c=${a:0:3}
+   47  echo $c
+   48  vim 2203305_data_filter.sh
+   49  bash 2203305_data_filter.sh
+   50  vim 2203305_data_filter.sh
+   51  bash 2203305_data_filter.sh ashish
+   52  vim 2203305_data_filter.sh
+   53  bash 2203305_data_filter.sh ashish
+   54  vim 2203305_data_filter.sh
+   55  bash 2203305_data_filter.sh ashish
+   56  vim 2203305_data_filter.sh
+   57  bash 2203305_data_filter.sh ashish
+   58  vim 2203305_data_filter.sh
+   59  bash 2203305_data_filter.sh ashish
+   60  vim 2203305_data_filter.sh
+   61  bash 2203305_data_filter.sh ashish
+   62  vim 2203305_data_filter.sh
+   63  bash 2203305_data_filter.sh ashish city monstreal
+   64  vim 2203305_data_filter.sh
+   65  bash 2203305_data_filter.sh ashish city monstreal
+   66  vim 2203305_data_filter.sh
+   67  bash 2203305_data_filter.sh ashish city monstreal
+   68  vim 2203305_data_filter.sh
+   69  bash 2203305_data_filter.sh ashish city monstreal
+   70  vim 2203305_data_filter.sh
+   71  bash 2203305_data_filter.sh us_500.csv city Miami
+   72  ls
+   73  rm us_city_Miami
+   74  ls
+   75  vim 2203305_data_filter.sh
+   76  bash 2203305_data_filter.sh us_500.csv city Miami
+   77  ls
+   78  cat us_city_Miami.csv
+   79  vim 2203305_data_filter.sh
+   80  rm us_city_Miami
+   81  rm us_city_Miami.csv
+   82  bash 2203305_data_filter.sh us_500.csv city Miami
+   83  ls
+   84  vim 2203305_data_filter.sh
+   85  bash 2203305_data_filter.sh us_500.csv city Miami
+   86  ls
+   87  cat us_city_Miami.csv
+   88  vim 2203305_data_filter.sh
+   89  rm us_city_Miami.csv
+   90  bash 2203305_data_filter.sh us_500.csv city Miami
+   91  ls
+   92  cat us_city_Miami.csv
+   93  rm us_city_Miami.csv
+   94  vim 2203305_data_filter.sh
+   95  bash 2203305_data_filter.sh us_500.csv city Miami
+   96  ls
+   97  vim 2203305_data_filter.sh
+   98  bash 2203305_data_filter.sh us_500.csv city Miami
+   99  vim 2203305_data_filter.sh
+  100  bash 2203305_data_filter.sh us_500.csv city Miami
+  101  vim 2203305_data_filter.sh
+  102  bash 2203305_data_filter.sh us_500.csv city Miami
+  103  vim 2203305_data_filter.sh
+  104  bash 2203305_data_filter.sh us_500.csv city Miami
+  105  vim 2203305_data_filter.sh
+  106  bash 2203305_data_filter.sh us_500.csv city Miami
+  107  vim 2203305_data_filter.sh
+  108  bash 2203305_data_filter.sh us_500.csv city Miami
+  109  vim 2203305_data_filter.sh
+  110  bash 2203305_data_filter.sh us_500.csv city Miami
+  111  ls
+  112  cat us_city_Miami.csv
+  113  rm us_city_Miami.csv
+  114  bash 2203305_data_filter.sh us_500.csv city Miami
+  115  cat us_city_Miami.csv
+  116  vim 2203305_data_filter.sh
+  117  rm us_city_Miami.csv
+  118  bash 2203305_data_filter.sh us_500.csv city Miami
+  119  cat us_city_Miami.csv
+  120  vim 2203305_data_filter.sh
+  121  cat us_city_Miami.csv
+  122  rm us_city_Miami.csv
+  123  bash 2203305_data_filter.sh us_500.csv city Miami
+  124  cat us_city_Miami.csv
+  125  mkdir code
+  126  mkdir data
+  127  ls
+  128  mv *.csv data
+  129  mv *.sh code
+  130  cd data
+  131  ls
+  132  cd ..
+  133  cd code
+  134  ls
+  135  cd ..
+  136  ls
+  137  history >>2203305_history.txt
